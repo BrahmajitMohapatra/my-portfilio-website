@@ -31,6 +31,6 @@ npm start
 
 
 <h2>Contact</h2>
-<p>If you have any questions or feedback about my portfolio website, feel free to <a href="isaacebe47@gmail.com">contact me</a>.</p>
+<p>If you have any questions or feedback about my portfolio website, feel free to <a href="isaacebe47@gmail.com" target="_blanck>contact me</a>.</p>
   </body>
 </html>
