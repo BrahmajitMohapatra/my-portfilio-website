@@ -263,9 +263,30 @@ p {
 }
 
 .icons i {
-	color: white;
+	color: #f9f9f9;
 	font-size: 30px;
+	
   }
+ 
+  
+  .delayed-display {
+	animation: fadeIn 3s ease-out 2s forwards;
+  }
+  
+  @keyframes fadeIn {
+	0% {
+	  opacity: 0;
+	  transform: scale(0);
+	}
+	50% {
+	  transform: scale(1.2);
+	}
+	100% {
+	  opacity: 1;
+	  transform: scale(1);
+	}
+  }
+  
 
 /* End Hero Section */
 

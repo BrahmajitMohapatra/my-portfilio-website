@@ -24,28 +24,8 @@ menu_item.forEach((item) => {
 	});
 });
 
-
-function downloadFile() {
-	// Create a temporary anchor element
-	var downloadLink = document.createElement('a');
-  
-	// Set the href attribute to the URL of the file to download
-	downloadLink.href = 'http://localhost:8080/Isaac\'s%20Resume%20(3).pdf';
-
-  
-	// Set the download attribute to the filename you want the file to be saved as
-	downloadLink.download = 'resume.pdf';
-  
-	// Append the anchor element to the document body
-	document.body.appendChild(downloadLink);
-  
-	// Trigger the download by programmatically clicking the anchor element
-	downloadLink.click();
-  
-	// Remove the anchor element from the document body
-	document.body.removeChild(downloadLink);
-  }
+setTimeout(function() {
+	document.querySelector('.icons').classList.remove('delayed-display');
+  }, 3000);
   
   
-
- 
