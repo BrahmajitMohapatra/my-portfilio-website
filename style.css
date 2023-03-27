@@ -262,6 +262,11 @@ p {
 	animation-delay: 2.5s;
 }
 
+.icons i {
+	color: white;
+	font-size: 30px;
+  }
+
 /* End Hero Section */
 
 /* Services Section */
@@ -400,13 +405,12 @@ p {
 
  /* start Side bar  */
 .sidebar {
-	position: fixed;
-	top: 50%;
-	right: 0;
+	/* position: fixed; */
+	/* top: 50%;
+	right: 0; */
 	transform: translateY(-50%);
 	width: 100px;
-	/* background-color: #f1f1f1; */
-	/* padding: 10px; */
+	
 	box-sizing: border-box;
   }
   
@@ -550,18 +554,18 @@ p {
 	background-color: #0056b3;
   }
   
-  @media only screen and (max-width: 768px) {
-	.all-projects {
-	  flex-direction: column;
-	}
-	
-	.project-1,
-	.project-2,
-	.project-3 {
-	  margin-bottom: 30px;
-	  flex-basis: 100%;
-	}
+@media only screen and (max-width: 768px) {
+  .all-projects {
+    flex-direction: column;
   }
+  
+  .project-1,
+  .project-2,
+  .project-3 {
+    margin-bottom: 30px;
+    flex-basis: 100%;
+  }
+}
  
   
   
